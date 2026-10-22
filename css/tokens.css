@@ -1,5 +1,12 @@
 :root{
-    /* Aquí declaramos nuestras variables, DENTRO DE ROOT */
-    --color-primary: red;
-    --color-secundary: black;
+
+--dark-blue:#14122b;
+--purple:#4b2a7b; 
+--pink:#e0457b;
+--light-yellow:#ffd166;
+--light-blue:#f1eefb;
+--white:#ffffff;
+
+
+
 }
