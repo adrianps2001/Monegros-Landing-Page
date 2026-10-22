@@ -15,18 +15,18 @@
     --font-size-2xl : 2.441rem; /* 40px */
 
 
---dark-blue:#14122b;
---purple:#4b2a7b; 
---pink:#e0457b;
---light-yellow:#b8b2a6;
---light-blue:#f1eefb;
---white:#ffffff;
+    --dark-blue:#14122b;
+    --purple:#4b2a7b; 
+    --pink:#e0457b;
+    --light-yellow:#b8b2a6;
+    --light-blue:#f1eefb;
+    --white:#ffffff;
 
---color-primary:var(--purple);
---color-background-main:var(--light-blue);
---color-secondary:var(--dark-blue);
---color-headings-primary:var(--light-yellow);
---color-headings-secondary:var(--light-pink);
---color-backgorund-section:var(--white);
+    --color-primary:var(--purple);
+    --color-background-main:var(--light-blue);
+    --color-secondary:var(--dark-blue);
+    --color-headings-primary:var(--light-yellow);
+    --color-headings-secondary:var(--light-pink);
+    --color-backgorund-section:var(--white);
 
 }
