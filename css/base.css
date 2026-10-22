@@ -1,0 +1,13 @@
+*,
+::before,
+::after {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+/* aquí escribimos el CSS normal */
+button{
+    background-color: var(--color-secundary);
+    color: var(--color-primary);
+}

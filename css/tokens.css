@@ -1,0 +1,5 @@
+:root{
+    /* Aquí declaramos nuestras variables, DENTRO DE ROOT */
+    --color-primary: red;
+    --color-secundary: black;
+}
