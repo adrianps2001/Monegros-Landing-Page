@@ -7,6 +7,11 @@
 --light-blue:#f1eefb;
 --white:#ffffff;
 
-
+--color-primary:var(--purple);
+--color-background-main:var(--light-blue);
+--color-secondary:var(--dark-blue);
+--color-headings-primary:var(--light-yellow);
+--color-headings-secondary:var(--light-yellow);
+--color-backgorund-section:var(--light-yellow);
 
 }
