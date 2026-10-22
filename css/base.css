@@ -7,7 +7,34 @@
 }
 
 /* aquí escribimos el CSS normal */
-button{
-    background-color: var(--color-secundary);
-    color: var(--color-primary);
+
+#cabecera{
+    margin:0 auto;
+    padding: var(--space-md) var(--space-lg);
+    background-color: var(--color-secondary);
+}
+
+.boton{
+    background-color: var(--color-headings-secondary);
+    color: var(--color-background-section);
+    padding: 0.75rem var(--space-lg);
+}
+nav {
+    display: flex;
+    justify-content:space-between;
+}
+nav ul li a {
+text-decoration: none;
+color: var(--color-background-section);
+font-family: var(--font-sans);
+}
+nav a{
+text-decoration: none;
+color: var(--color-headings-primary);
+font-family: var(--font-sans);
+}
+nav ul{
+     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
