@@ -6,8 +6,54 @@
  padding: 0;
 }
 
-/* aquí escribimos el CSS normal */
-button{
-    background-color: var(--color-secundary);
+body {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base);
+  background-color: var(--color-background-main);
+  color: var(--color-secondary);
+}
+
+main{
+    margin: 0 auto;
+    padding: var(--space-lg) var(--space-md);
+    width: 100vw;
+    height: 100vh;
+}
+
+.boton{
+    padding: var(--space-md) var(--space-lg);
+    background-color: var(--color-headings-secondary);
+    color: var(--color-background-section);
+    text-decoration: none;
+}
+
+#info{
+    border: 2px solid var(--color-primary);
+    background-color: var(--color-background-section);
+}
+
+section h2{
+    margin-bottom: var(--space-lg);
     color: var(--color-primary);
+}
+
+.bloques{
+    margin-bottom: var(--space-xl) ;
+}
+
+.bloque{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: var(--color-background-main);
+    padding: 1.5rem;
+}
+
+section div article h3{
+    margin-bottom: var(--space-sm);
+    color: var(--color-headings-secondary);
+}
+
+footer{
+    padding: var(--space-lg);
 }
