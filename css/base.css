@@ -17,7 +17,6 @@ main{
     margin: 0 auto;
     padding: var(--space-lg) var(--space-md);
     width: 90vw;
-    height: 90vh;
 }
 
 section{
