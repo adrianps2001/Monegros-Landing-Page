@@ -44,7 +44,6 @@ footer{
     width: 100%;
   }
 
-  /* Añade esto para el footer en móvil */
   footer {
     flex-direction: column;
     align-items: center;
