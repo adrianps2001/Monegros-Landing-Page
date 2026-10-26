@@ -16,7 +16,7 @@ body {
 main{
     margin: 0 auto;
     padding: var(--space-lg) var(--space-md);
-    width: 90vw;
+    width: 65vw;
 }
 
 section{
