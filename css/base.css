@@ -23,6 +23,8 @@ footer{
     padding: var(--space-lg);
     background-color: var(--color-secondary);
     color: var(--color-background-section);
+
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: var(--space-xl);
 }
