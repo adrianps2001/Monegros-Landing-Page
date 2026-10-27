@@ -1,3 +1,12 @@
+/*----------------------------------------------------------------------------
+COSAS QUE PODRÍAN DAR PROBLEMAS AL HACER MERGE: (LO DE ABAJO)
+
+Lo de abajo hasta el siguiente comentario, como se repite en los dos bloques
+que cada uno hacía (tu parte y la mía), puede que de problemas al hacer merge.
+
+Si da problemas, elige lo que creas mejor, y si se rompen las cosas no pasa nada.
+Ya lo arreglaremos.
+----------------------------------------------------------------------------*/
 *,
 ::before,
 ::after {
@@ -23,6 +32,21 @@ section{
     padding: var(--space-2xl) var(--space-lg);
 }
 
+section div article h3{
+    margin-bottom: var(--space-sm);
+}
+
+section div article p{
+    color: var(--color-secondary);
+}
+
+/*----------------------------------------------------------------------------
+COSAS QUE NO DEBERIAN DAR PROBLEMAS AL HACER MERGE: (LO DE ABAJO)
+
+No deberían dar problema porque por ejemplo :
+#info, el h2, .bloques, .bloque y .boton solo aparecen en mi section
+así que no las habrás referenciado porque no existen en tu parte de código
+----------------------------------------------------------------------------*/
 #info{
     border: 2px solid var(--color-primary);
     background-color: var(--color-background-section);
@@ -45,14 +69,6 @@ section h2{
     margin-bottom: var(--space-sm);
     color: var(--color-headings-secondary);
     width: 30%;
-}
-
-section div article h3{
-    margin-bottom: var(--space-sm);
-}
-
-section div article p{
-    color: var(--color-secondary);
 }
 
 .boton{
