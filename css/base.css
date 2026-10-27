@@ -25,7 +25,7 @@ body {
 main{
     margin: 0 auto;
     padding: var(--space-lg) var(--space-md);
-    width: 90vw;
+    width: 65vw;
 }
 
 section{
@@ -76,4 +76,20 @@ section h2{
     background-color: var(--color-headings-secondary);
     color: var(--color-background-section);
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 95vw;
+    padding: var(--space-md) var(--space-xs);
+  }
+
+  .bloques {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .bloque {
+    width: 100%;
+  }
 }
